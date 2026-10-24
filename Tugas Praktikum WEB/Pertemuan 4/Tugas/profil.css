@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Property font-family */
+    background-color: rgba(241, 245, 249, 0.9); /* Format Warna 1: RGBA */
+    color: #334155; /* Format Warna 2: HEX */
+    line-height: 1.6; /* Property line-height */
+}
+
+/* Styling Judul */
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase; /* Property text-transform */
+}
+
+/*- Kotak Utama (Box Model & Position) */
+#kartu-utama {
+    width: 360px; /* Lebar tetap */
+    margin: 50px auto; /* Menengahkan posisi secara horizontal */
+    padding: 24px; /* Space dalam kotak */
+    background-color: white; /* Format Warna 3: Nama Warna */
+    border: 2px solid #cbd5e1; /* Border */
+    border-radius: 12px; /* Border radius */
+    text-align: center; /* Property text-align */
+}
+
+/* Sub Judul */
+.sub-judul {
+    font-size: 0.9rem; /* Property font-size */
+    color: #64748b;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+/*  Paragraf dalam Profil */
+.isi-profil p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.hobi h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+/* Display inline-block (Elemen 1) - Tag hobi */
+.tag-skill {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    background-color: #e2e8f0;
+    color: #0f172a;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Display inline-block (Elemen 2) - Tombol Kontak */
+#tombol-kontak {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(37, 99, 235); /* Format Warna Tambahan: RGB */
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
